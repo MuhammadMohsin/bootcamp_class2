@@ -21,7 +21,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Setup Node.js environment
-      uses: actions/setup-node@1.4.2
+      uses: actions/setup-node@v2-beta
       with: 
         version: 12
         
